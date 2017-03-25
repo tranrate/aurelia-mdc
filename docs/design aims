@@ -1,0 +1,8 @@
+The initial aim is to provide a good, efficient and glitch free interface between Aurelia and MDC. Custom Attributes are used
+because they allow that. It also allows the developer to retain the full power of Aurelia and MDC, in particular the developer 
+has full access to the html to use Aurelia's bindings etc. and do things "the Aurelia way".
+
+Additionally I've tried to allow things to be done "the MDC way". The HTML used requires minimal alteration from (for example) 
+the HTML used in the MDC documentation and Demo - the only change is to insert the custom attributes with the API bindings.
+
+However I also see the need for a higher level interface, built on top of this and have a number of ideas about this.
